@@ -10,7 +10,7 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'MasterMind Cine Robot')
 API_ID = int(environ.get('API_ID',34431604 ''))
 API_HASH = environ.get('API_HASH',8c6e35df8dd50e13eaa197d04658f238 '')
 BOT_TOKEN = environ.get('BOT_TOKEN', 8525698282:AAHOrYmvV9_M-o9PTHH78LhTxmxUhG6L-Ic"")
@@ -21,9 +21,9 @@ PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg'))
 
 
 # Admins & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()] # For Multiple Id Use One Space Between Each.
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]  # For Multiple Id Use One Space Between Each.
-AUTH_USERS = (auth_users + ADMINS) if auth_users else []
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', 6704807153 '').split()] # For Multiple Id Use One Space Between Each.
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', 6704807153 '').split()]  # For Multiple Id Use One Space Between Each.
+AUTH_USERS = (auth_users + ADMINS) if auth_users else [6704807153]
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
@@ -196,5 +196,6 @@ else:
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
